@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>How To Become Frontend Developer</h1>
+  <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201111215809/How-to-Become-a-Front-End-Developer-in-2020.png" alt="img" width="800">
+  <hr />
+  <h2>Who is Frontend Developer</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ad sit earum nihil quasi, quidem saepe ipsa eum odit quia aut tempore, mollitia ullam. Minima adipisci commodi numquam tempora consequatur assumenda sint corrupti at maiores nulla. Provident perferendis est laboriosam commodi, maiores tenetur tempora possimus atque exercitationem delectus animi molestias?</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate tenetur alias, molestias reprehenderit, libero deleniti quia nostrum, dolorem consequuntur eaque nesciunt consequatur iste at saepe debitis vero. Alias explicabo, eum animi culpa commodi, suscipit voluptates nemo cupiditate, tempore pariatur iusto omnis possimus assumenda rem dolorum velit! Commodi tempora officia error!</p>
+
+  <h2>Skill Required</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>React</li>
+    <li>TailWind CSS</li>
+    <li>Git</li>
+  </ul>
+
+  <h2>Skill Required To Become A Frontend Developer </h2>
+
+  <ol>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem!</li>
+  </ol>
+  For Full Course visit : <a href="https://www.youtube.com/watch?v=GkZN_-HMCJ8&list=PLQEaRBV9gAFsistSzOgnD4cWgFGRVda4X&index=2" target="_blank" title="Video for BecomeFrontend Developer">This Video </a>
+  
+</body>
+
+</html>
