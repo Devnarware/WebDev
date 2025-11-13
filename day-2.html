@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- colspan -->
+    <table border>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th >Class</th>
+                <th>Roll No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dev</td>
+                <td>12th</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Mayank</td>
+                <td>12th</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Anurag</td>
+                <td>12th</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <P>ROW AND COL SPAN</P>
+
+    <hr>
+
+     <table border="1">
+        <thead>
+            <tr>
+                <th>cloumn1</th>
+                <th>cloumn2</th>
+                <th>cloumn3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1 cell 1</td>
+                <td>row 1 cell 2</td>
+                <td>row 1 cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2 cell 2</td>
+                <td>row 2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="23">row 3 cell 1</td>
+            </tr>
+        </tbody>
+     </table>
+
+    <hr />
+    <p>KHATRNAK EXAMPLE</p>
+    <hr />
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+                <th>Level 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4">System Apps</td>
+                <td rowspan="3">System Env</td>
+                <td rowspan="">App Test</td>
+                <td rowspan="2">Foo</td>
+            </tr>
+
+            <tr>
+                <td rowspan="">App memory</td>
+            </tr>
+            <tr>
+                <td rowspan="">App test</td>
+                <td rowspan="2">bar</td>
+            </tr>
+            <tr>
+                <td rowspan="">System Env 2</td>
+                <td rowspan="">App memory</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">System Memory</td>
+                <td rowspan="">Memory Fu</td>
+                <td rowspan="">Foo</td>
+            </tr>
+            <tr>
+                <td rowspan="">Apes test</td>
+                <td rowspan="">bar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
