@@ -1,0 +1,269 @@
+@font-face {
+    font-family: montilla;
+    src: url(./MontillaExExtraboldDemo-AR8Gg.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100% ;
+    width: 100% ;
+    background-color:#D6FF41;
+    
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif ; */
+
+    font-family: montilla;
+
+}
+
+main{
+
+    width: 100%;
+}
+
+nav{
+    
+    padding: 50px 60px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+
+
+    
+
+}
+
+
+nav h3{
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+}
+
+nav a{
+    font-size: 23px;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    font-family:   system-ui, -apple-system ;
+    letter-spacing: 1px ;
+}
+
+section{
+    padding: 50px 60px; 
+    
+}
+ 
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+
+    
+    /* background-color: aqua; */
+}
+
+.hero-text1 h1{
+    font-size: 183px;
+    font-weight: 900;
+
+    line-height: 1;
+
+   
+}
+
+.hero-text1 .video{
+    height: 97px;
+    width: 400px;
+    background-color: rgb(59, 58, 56);
+    border: none;
+    border-radius: 85px;
+
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTyanH0sShr11FcRhSmzCygH8b4C0wXbJAHi1Be7-yTUQ-GWj8w);
+
+
+    background-size: cover;
+    background-position: center ;
+
+    padding: 6px;
+
+}
+
+.video .play{
+    height: 100%;
+    width: 88px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white ;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.play .ri-play-large-fill{
+    color: #D6FF41;
+    font-size: 32px;
+}
+
+.hero-text1 #star{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    /* background-color: azure; */
+
+    position: absolute;
+    right: 31px;
+    bottom: 20px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#star .ri-gemini-fill{
+    color: #BAE234;
+}
+
+section .hero-text2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+    /* background-color: aqua; */
+     
+}
+
+
+
+.hero-text2 h1{
+    font-size: 183px;
+    font-weight: 900;
+
+    line-height: 0.72;
+}
+
+.hero-text2 p{
+    font-size: 25px;
+    width: 500px;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    font-family:   system-ui, -apple-system ;
+    letter-spacing: 1px ;
+    line-height: 1.5;
+}
+
+
+main .oval{
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.oval .o1{
+    height: 100%;
+    width: 260px;
+    border: solid 1.5px rgb(82, 82, 82);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.o1 span{
+    font-family:   system-ui, -apple-system ;
+    font-size: 23px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.oval .lineImg {
+    height: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oval .lineImg img{
+    max-width: 800px;
+}
+
+
+
+.image{
+
+    height: 620px;
+    width: 89%;
+    margin: 5%;
+    margin-bottom: 0;
+    border-top-left-radius: 185px;
+    border-top-right-radius: 185px;
+    background-image: url(https://cdn.prod.website-files.com/64e7340b7d897bf0c7179e52/64ebbe14414665ada632fb9e_hero%20big%20image-min.png);
+
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-end; */
+
+    position: relative;
+
+
+}
+.image .arr{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 10px solid rgb(52, 51, 51);
+    border-radius: 100%;
+
+    position: absolute;
+    top: -9%;
+    right: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arr i{
+    font-size: 150px; 
+    color: #D6FF41;
+}
+
+
+main #ending{
+    width: 100%;
+    height: 168px;
+    background-color: black;
+    color: #D6FF3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+#ending pre{
+    font-family: montilla;
+}
