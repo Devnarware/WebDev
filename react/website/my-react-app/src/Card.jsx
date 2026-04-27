@@ -1,7 +1,9 @@
 
 
-function Card(){
-    return(
+function Card() {
+    
+    return (
+
         <div className="card">
 
             <img src="https://pbs.twimg.com/profile_images/2017973714718236672/wVGv4IgG_400x400.jpg" alt="profile picture" />
@@ -13,4 +15,4 @@ function Card(){
     );
 }
 
-export default Card ;
+export default Card;
