@@ -9,14 +9,20 @@
 
   text-align: center;
 
-  max-width: 300px;
+  max-width: 250px;
 
   display: inline-block;
   /* display inline is make the div block level to only space level (means it takes only the space which is needed) */
+
+  line-height: 10px;
+  
 }
 
 
-.card img{
-  height: 300px;
-  border-radius: 15px;
+.card .card-image{
+
+  max-width: 70%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
 }
