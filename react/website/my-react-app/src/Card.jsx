@@ -10,7 +10,7 @@ function Card() {
 
             <img className="card-image" src={profilePic} alt="profile picture" />
             <h2 className="card-title">Dev Narware</h2>
-            <p className="">I am a 2nd year CSE student</p>
+            <p className="card-text">I am a 2nd year CSE student</p>
 
         </div>
 
