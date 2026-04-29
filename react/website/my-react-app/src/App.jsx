@@ -1,11 +1,22 @@
-import Card from "./Card.jsx"
+// import Card from "./Card.jsx"
+
+// function App(){
+
+
+//     return(
+//         <Card/>
+//     );
+// }
+
+// export default App ;
+
+import Button from './Button.jsx'
 
 function App(){
 
-
     return(
-        <Card/>
-    );
+        <Button />
+    )
 }
 
-export default App ;
+export default App
