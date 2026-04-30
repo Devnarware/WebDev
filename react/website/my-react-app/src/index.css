@@ -1,4 +1,5 @@
-.card{
+/* -------- For card Components ---------- */
+/* .card{
   border: 2px solid rgb(192, 191, 191);
   border-radius: 20px;
 
@@ -12,9 +13,10 @@
   max-width: 250px;
 
   display: inline-block;
-  /* display inline is make the div block level to only space level (means it takes only the space which is needed) */
 
-  /* line-height: 10px; */
+  // display inline is make the div block level to only space level (means it takes only the space which is needed) 
+
+   line-height: 10px; 
 
 }
 
@@ -38,4 +40,18 @@
   font-family: system-ui, -apple-system ;
   color: hsl(0, 0%, 20%);
 }
+ */
 
+
+
+/* ******** For Button **********  */
+.button{
+  
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: rgba(8, 182, 182, 0.843);
+  cursor: pointer;
+  color: rgb(42, 42, 42);
+
+}
