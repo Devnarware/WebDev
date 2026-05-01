@@ -1,3 +1,7 @@
+body{
+ background-color: black;
+}
+
 /* -------- For card Components ---------- */
 /* .card{
   border: 2px solid rgb(192, 191, 191);
