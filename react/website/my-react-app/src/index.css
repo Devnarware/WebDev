@@ -57,3 +57,22 @@
 } */
 
 
+html{
+  background-color: rgb(10, 11, 11);
+  color: rgb(194, 192, 192);
+  font-family: system-ui, -apple-system ;
+}
+
+.Student{
+
+  font-size: 3vh;
+  /* line-height: 10px; */
+  border: 2px solid rgb(205, 196, 196);
+  border-radius: 15px;
+  margin: 7px;
+  padding: 10px;
+}
+
+.Student p{
+  margin: 2px;
+}
