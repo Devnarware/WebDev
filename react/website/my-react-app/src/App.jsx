@@ -34,11 +34,16 @@
 
 import Students from './Students.jsx'
 
-function App(){
-    return(
-        <Students name = "IronMan" age = {30} isStudent = {false} />
-    )
+function App() {
+    return (
+        <>
+            <Students name="IronMan" age={30} isStudent={false} />
+            <Students name="Spiderman" age={30} isStudent={false} />
+            <Students name="Thor" age={30} isStudent={false} />
+            <Students name="Hulk" age={30} isStudent={false} />
+        </>
+    );
     // when we have to send non string value to the component then we have to use {} and inside that we can write any js code and that will be evaluated and the result will be sent to the component as a prop value
 }
 
-export default App ;
+export default App;

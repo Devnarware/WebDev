@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 
 function Students(props){
     return(
