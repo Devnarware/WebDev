@@ -10,4 +10,8 @@ function Students(props){
     );
 }
 
+// props are the way to send data from parent component to child component in react and it is read only and it is an object and it is passed as an argument to the component function and we can access the props values using props.propName
+
+// props are just like class or interface in java we can define it and use it again and again
+
 export default Students ;
