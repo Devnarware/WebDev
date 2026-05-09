@@ -14,4 +14,12 @@ function Students(props){
 
 // props are just like class or interface in java we can define it and use it again and again
 
+// Students.propTypes = {
+//     name: PropTypes.string,
+//     age: PropTypes.number,
+//     isStudent: PropTypes.bool
+// }
+
+// this not works anymore it proptypes was working before react 19 but it is now removed
+
 export default Students ;
