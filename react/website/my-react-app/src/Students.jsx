@@ -14,6 +14,12 @@ function Students(props){
 
 // props are just like class or interface in java we can define it and use it again and again
 
+// Students.defaultProps = {
+//     name: "Guest",
+//     age: 0,
+//     isStudent: false
+// }
+
 // Students.propTypes = {
 //     name: PropTypes.string,
 //     age: PropTypes.number,
